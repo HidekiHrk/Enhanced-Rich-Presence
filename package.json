@@ -1,0 +1,30 @@
+{
+  "name": "enhanced-rich-presence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord-rich-presence": "0.0.8",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "electron": "^10.1.1",
+    "electron-packager": "^15.1.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "help": "electron-packager --help",
+    "build": "electron-packager . --icon=./frontend/public/favicon.ico --asar.unpack='server.js' --ignore='/frontend|LICENSE|makefile|README\\.md|\\.gitignore'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HidekiHrk/Enhanced-Rich-Presence.git"
+  },
+  "author": "HidekiHrk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HidekiHrk/Enhanced-Rich-Presence/issues"
+  },
+  "homepage": "https://github.com/HidekiHrk/Enhanced-Rich-Presence#readme"
+}
